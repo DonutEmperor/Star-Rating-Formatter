@@ -1,0 +1,38 @@
+
+[{
+    "title" : "@@org.joget.StarRatingFormatter.config@@",
+    "properties" : [{
+        "name" : "fullStarColor",
+        "label" : "@@org.joget.StarRatingFormatter.fullStarColor@@",
+        "type" : "Color",
+        "value": "#000000"
+    },
+    {
+        "name" : "emptyStarColor",
+        "label" : "@@org.joget.StarRatingFormatter.emptyStarColor@@",
+        "type" : "Color",
+        "value": "#FFFFFF"
+    },
+    
+    {
+        "name" : "starSize",
+        "label" : "@@org.joget.StarRatingFormatter.starSize@@",
+        "type" : "Number",
+        "value": "15"
+    },
+    {
+        "name" : "numberOfStars",
+        "label" : "@@org.joget.StarRatingFormatter.numberOfStar@@",
+        "type" : "SelectBox",
+        "options" : [{"value" : "5" , "label" : "5-Stars"},
+                {"value" : "6" , "label": "6-stars"},
+                {"value" : "7" , "label": "7-stars"},
+                {"value" : "8" , "label": "8-stars"},
+                {"value" : "9" , "label": "9-stars"},
+                {"value" : "10" , "label": "10-stars"}]
+            
+                
+    }]
+
+
+}]
